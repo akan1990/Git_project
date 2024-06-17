@@ -30,6 +30,7 @@ public class Assignment_Checkboxes {
 	 
 	 //Count no. of CheckBoxes.
 	 System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
+	 System.out.println("get the size of the checkbox.");
 	 
 	 Assert.assertFalse(driver.findElement(By.name("checkBoxOption1")).isSelected());
 	 
